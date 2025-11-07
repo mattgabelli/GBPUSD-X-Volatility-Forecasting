@@ -15,5 +15,3 @@ def get_log_returns(ticker=ticker_symbol, start=start_date, end=end_date):
     data.dropna(inplace=True)
     return data
 
-forex_data = get_log_returns()
-print(forex_data.tail())
